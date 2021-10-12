@@ -8,7 +8,7 @@
 
 help(choose)
 
-
+choose(49,6)
 
 
 ###### 0.6 ####################################################################
@@ -48,7 +48,7 @@ sort(rep(c(6, 8), times = 5))
 
 ###### 0.7 ####################################################################
 
-x = 0:6
+x = 0:7
 y = c(1, 2)
 x + y
 
@@ -123,12 +123,12 @@ plot(te, h.te)
 
 # Mit den Argumenten xlab und ylab, sowie main k??nnen wir Beschriftungen hinzu-
 # fuegen. las dreht die Skalenbeschriftung an der vertikalen Achse.
-plot(te, h.te, xlab = "Zeit t in Jahren", ylab = "H??he h(t) in cm", 
+plot(te, h.te, xlab = "Zeit t in Jahren", ylab = "Höhe h(t) in cm", 
      las = 1, main = "Baumwachstum")
 
 # Schliesslich aendern wir mit ylim noch den Zeichenbereich, weil wir den 
 # Ursprung in unserer Grafik ebenfalls darstellen wollen.
-plot(te, h.te, xlab = "Zeit t in Jahren", ylab = "H??he h(t) in cm", 
+plot(te, h.te, xlab = "Zeit t in Jahren", ylab = "Höhe h(t) in cm", 
      las = 1, main = "Baumwachstum", ylim = c(0, max(h.te)))
 
 # Jetzt wollen wir wissen, wann die Hoehe 400 cm ueberschritten hat.
